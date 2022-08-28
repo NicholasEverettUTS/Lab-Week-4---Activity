@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class LoadAssets : MonoBehaviour
 {
-    public Material redObj;
+    public GameObject redObj; 
     // Start is called before the first frame update
     void Start()
     {
-        redObj = gameObject.GetComponent<Material>();
+        
     }
 
     // Update is called once per frame
